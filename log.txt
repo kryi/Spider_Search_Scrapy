@@ -1,0 +1,69 @@
+2015-12-17 23:48:37 [scrapy] INFO: Scrapy 1.0.3 started (bot: SearchSpider)
+2015-12-17 23:48:37 [scrapy] INFO: Optional features available: ssl, http11
+2015-12-17 23:48:37 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'SearchSpider.spiders', 'SPIDER_MODULES': ['SearchSpider.spiders'], 'LOG_FILE': 'log.txt', 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'SearchSpider'}
+2015-12-17 23:48:38 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-12-17 23:48:38 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-12-17 23:48:38 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-12-17 23:48:38 [scrapy] INFO: Enabled item pipelines: 
+2015-12-17 23:48:38 [scrapy] INFO: Spider opened
+2015-12-17 23:48:38 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-12-17 23:48:54 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-12-17 23:48:54 [scrapy] INFO: Closing spider (shutdown)
+2015-12-17 23:48:55 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 61221,
+ 'downloader/request_count': 215,
+ 'downloader/request_method_count/GET': 215,
+ 'downloader/response_bytes': 5846117,
+ 'downloader/response_count': 215,
+ 'downloader/response_status_count/200': 215,
+ 'dupefilter/filtered': 701,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2015, 12, 17, 15, 48, 55, 484156),
+ 'item_scraped_count': 162,
+ 'log_count/INFO': 8,
+ 'offsite/domains': 188,
+ 'offsite/filtered': 1906,
+ 'request_depth_max': 5,
+ 'response_received_count': 213,
+ 'scheduler/dequeued': 215,
+ 'scheduler/dequeued/memory': 215,
+ 'scheduler/enqueued': 1957,
+ 'scheduler/enqueued/memory': 1957,
+ 'start_time': datetime.datetime(2015, 12, 17, 15, 48, 38, 61281)}
+2015-12-17 23:48:55 [scrapy] INFO: Spider closed (shutdown)
+2015-12-17 23:57:52 [scrapy] INFO: Scrapy 1.0.3 started (bot: SearchSpider)
+2015-12-17 23:57:52 [scrapy] INFO: Optional features available: ssl, http11
+2015-12-17 23:57:52 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'SearchSpider.spiders', 'SPIDER_MODULES': ['SearchSpider.spiders'], 'LOG_FILE': 'log.txt', 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'SearchSpider'}
+2015-12-17 23:57:52 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-12-17 23:57:52 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-12-17 23:57:52 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-12-17 23:57:52 [scrapy] INFO: Enabled item pipelines: 
+2015-12-17 23:57:52 [scrapy] INFO: Spider opened
+2015-12-17 23:57:52 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-12-17 23:57:55 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-12-17 23:57:55 [scrapy] INFO: Closing spider (shutdown)
+2015-12-17 23:57:57 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2015-12-17 23:57:57 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 2,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 2,
+ 'downloader/request_bytes': 19244,
+ 'downloader/request_count': 70,
+ 'downloader/request_method_count/GET': 70,
+ 'downloader/response_bytes': 2037000,
+ 'downloader/response_count': 68,
+ 'downloader/response_status_count/200': 68,
+ 'dupefilter/filtered': 491,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2015, 12, 17, 15, 57, 57, 395341),
+ 'item_scraped_count': 28,
+ 'log_count/INFO': 9,
+ 'offsite/domains': 169,
+ 'offsite/filtered': 1907,
+ 'request_depth_max': 3,
+ 'response_received_count': 68,
+ 'scheduler/dequeued': 70,
+ 'scheduler/dequeued/memory': 70,
+ 'scheduler/enqueued': 2253,
+ 'scheduler/enqueued/memory': 2253,
+ 'start_time': datetime.datetime(2015, 12, 17, 15, 57, 52, 635850)}
+2015-12-17 23:57:57 [scrapy] INFO: Spider closed (shutdown)
