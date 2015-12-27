@@ -19,6 +19,17 @@ ITEM_PIPELINES = {
 }
 
 LOG_LEVEL = 'ERROR'
+
+DOWNLOAD_DELAY = 0.05
+RANDOMIZE_DOWNLOAD_DELAY = True
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.54 Safari/536.5'
+COOKIES_ENABLED = True
+
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeue.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeue.FifoMemoryQueue'
+
+DOWNLOAD_TIMEOUT = 20
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'SearchSpider (+http://www.yourdomain.com)'
 

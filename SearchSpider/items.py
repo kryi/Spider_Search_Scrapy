@@ -15,3 +15,5 @@ class SearchspiderItem(scrapy.Item):
     title = scrapy.Field()
     article = scrapy.Field()
     link = scrapy.Field()
+    time = scrapy.Field()
+    heat = scrapy.Field()
